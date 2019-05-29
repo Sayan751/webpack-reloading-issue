@@ -11,3 +11,5 @@ The repository is created to demonstrate a potential bug in the latest version o
 5. The `webpack-dev-server` does not trigger a build.
 
 You may stop the process, pin the `webpack-dev-server` to `3.3.1`, and repeat the the process to verify that the earlier version worked.
+
+Link to the issue: https://github.com/webpack/webpack-dev-server/issues/1934

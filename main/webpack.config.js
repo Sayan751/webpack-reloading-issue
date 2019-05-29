@@ -1,5 +1,12 @@
-// @ts-check
-/** @type () => */
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const baseUrl = "/";
+
+/** @type {() => import("webpack").Configuration} */
 module.exports = () => ({
-    p
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: "index.ejs",
+            metadata: { baseUrl }
+        })
+    ]
 })

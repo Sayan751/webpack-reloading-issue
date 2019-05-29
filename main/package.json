@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/webpack": "^4.4.32",
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1"
